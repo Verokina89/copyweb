@@ -81,9 +81,9 @@ table {
 .navegations {
     display: flex;
     justify-content: space-center;
-    max-width: 1200px;
+    max-width: 900px;
     width: 100%;
-    padding: 20px;
+    padding: 30px;
 }
 
 /*-ENDofHEADER-*/
@@ -95,14 +95,13 @@ body {
 
 
 
-.accessheader{
+.accessheader {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     max-width: 1200%;
     padding: 20px;
-    margin: 0 auto;
 }
 
 .logo{
@@ -113,12 +112,27 @@ body {
 width: 18px;
 }
 
+.searchmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.elementstyle{
+   display: flex;
+   align-items: center; 
+}
+
 .searchmenu input {
     background-color: #f2f2f2;
     border-style: none;
     font-size: 16px;
     height: 40px;
     padding-left: 10px;
+    flex-grow: 1;
+    width: 700px;
 }
 
 
@@ -143,9 +157,7 @@ width: 18px;
     padding: 10px;
 }
 
-.masthead img {
-    width: 100%;
-}
+
 
 .masthead article {
     display: flex;
@@ -153,10 +165,19 @@ width: 18px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: black;
+    color: rgb(114, 111, 111);
     width: 100%;
     gap: 40px;
     padding: 20px;
+}
+
+.masthead img {
+    width: 100%;
+}
+
+.masthead h1, h2, p {
+    position: relative;
+    z-index: 1
 }
 
 .masthead h1{
@@ -167,5 +188,26 @@ width: 18px;
 .masthead h2 {
  font-weight: 600;
  font-size: 30px;
+}
+
+
+.buttonfree {
+    background-color: #ffc32a;
+    box-shadow: 0px 10px 30px rga(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 60px;
+    padding: 20px 50px;
+    font-weight: 600;
+    font-family: "Poppins, sans-serif";
+}
+
+.buttonpro {
+    background-color: #b23327;
+    color: white;
+    border: 2px solid white;
+    border-radius: 60px;
+    padding: 20px 50px;
+    font-weight: 600;
+    font-family: "Poppins, sans-serif";
 }
 
